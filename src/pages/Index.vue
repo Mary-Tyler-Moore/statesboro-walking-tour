@@ -37,7 +37,7 @@
 
 
 <script>
-import Flipbook from "flipbook-vue";
+import Flipbook from '../components/Flipbook';
 import LeftIcon from "vue-material-design-icons/ChevronLeftCircle";
 import RightIcon from "vue-material-design-icons/ChevronRightCircle";
 import PlusIcon from "vue-material-design-icons/PlusCircle";
@@ -63,12 +63,12 @@ export default {
     });
   },
   data() {
-    let baseUrl = "/statics/images";
+    let baseUrl = "https://walktheboro.com//statics/images";
     let imageURLs = [null];
     let highResImageURLs = [null];
     for (let i = 0; i < 40; i++) {
       imageURLs.push(`${baseUrl}/${i + 1}.jpg`);
-      highResImageURLs.push(`/statics/large-images/${i + 1}.jpg`);
+      highResImageURLs.push(`https://walktheboro.com//statics/large-images/${i + 1}.jpg`);
     }
     return {
       imageURLs,
