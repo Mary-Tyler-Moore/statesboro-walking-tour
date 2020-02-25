@@ -1,7 +1,7 @@
 {
-  "name": "fresh-project",
+  "name": "statesboro-walking-tour",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
+  "description": "Walk the Boro",
   "productName": "Quasar App",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
