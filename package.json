@@ -14,7 +14,8 @@
     "@quasar/extras": "^1.0.0",
     "flipbook-vue": "^0.8.0",
     "quasar": "^1.0.0",
-    "vue-i18n": "^8.0.0"
+    "vue-i18n": "^8.0.0",
+    "vue-material-design-icons": "^3.2.0"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0"
