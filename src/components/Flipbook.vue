@@ -935,7 +935,7 @@ linear-gradient(to right,
         if (Object.keys(this.preloadedImages).length >= 10) {
           this.preloadedImages = {};
         }
-        for (start = this.currentPage - 3, i = start, end = this.currentPage + 3, asc = start <= end; asc ? i <= end : i >= end; asc ? i++ : i--) {
+        for (start = this.currentPage - 3, i = start, end = this.currentPage + 7, asc = start <= end; asc ? i <= end : i >= end; asc ? i++ : i--) {
           url = this.pageUrl(i);
           if (url) {
             if (!this.preloadedImages[url]) {
