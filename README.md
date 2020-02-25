@@ -5,4 +5,4 @@ VR App: https://borowalk.netlify.com
 
 AR App: WIP
 
-Flipbook: https://walktheboro.com
+Flip-book: https://walktheboro.com 
