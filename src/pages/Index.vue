@@ -63,7 +63,7 @@ export default {
     });
   },
   data() {
-    let baseUrl = "../statics/images/";
+    let baseUrl = "../statics/images";
     let imageURLs = [null];
     let highResImageURLs = [null];
     for (let i = 0; i < 40; i++) {
