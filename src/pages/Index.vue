@@ -63,12 +63,12 @@ export default {
     });
   },
   data() {
-    let baseUrl = "../statics/images";
+    let baseUrl = "/statics/images";
     let imageURLs = [null];
     let highResImageURLs = [null];
     for (let i = 0; i < 40; i++) {
       imageURLs.push(`${baseUrl}/${i + 1}.jpg`);
-      highResImageURLs.push(`../statics/large-images/${i + 1}.jpg`);
+      highResImageURLs.push(`/statics/large-images/${i + 1}.jpg`);
     }
     return {
       imageURLs,
