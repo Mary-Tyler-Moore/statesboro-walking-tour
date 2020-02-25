@@ -1,8 +1,8 @@
 {
-  "name": "fresh-project",
+  "name": "statesboro-walking-tour",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "Downtown Statesboro Historical and Architectural Walking Tour",
+  "productName": "Walk the Boro",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Mary-Tyler-Moore",
